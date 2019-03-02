@@ -1,0 +1,22 @@
+{
+  "name": "xd-auto-animate-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hktuto/xd-auto-animate-tutorial.git"
+  },
+  "author": "Sean@HKTUTO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hktuto/xd-auto-animate-tutorial/issues"
+  },
+  "homepage": "https://github.com/hktuto/xd-auto-animate-tutorial#readme",
+  "dependencies": {
+    "animejs": "^3.0.1"
+  }
+}
