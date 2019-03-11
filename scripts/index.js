@@ -1,4 +1,4 @@
-logo = document.getElementById('logo');
+var logo = document.getElementById('logo');
 
 logo.addEventListener('click',replayIntroAnimation.play);
 
