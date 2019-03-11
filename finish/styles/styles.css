@@ -1,0 +1,103 @@
+html, body{
+    padding:0;
+	margin:0;
+	width: 100%;
+    height: 100%;
+}
+
+.hidden{
+	display: none!important;
+}
+
+#app_container{
+    width: 100%;
+    height: 100%;
+    background: rgb(74,71,71);
+	background: radial-gradient(circle, rgb(34, 33, 33) 0%,rgba(0,0,0,1) 100%);	
+	position: relative;
+	overflow: hidden;
+}
+
+.center{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top:0;
+	display: flex;
+	flex-flow:column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.bg_img{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+#bg_l1{
+	background-image: url(../images/bg_layer1.png);
+	z-index: 5;
+	transform: scale(2);
+}
+
+#logo_container{
+	z-index: 4;
+}
+
+#bg_l2{
+	background-image: url(../images/bg_layer2.png);
+	z-index: 3;
+	transform: scale(1.5);
+}
+
+#bg_l3{
+	background-image: url(../images/bg_layer3.png);
+	z-index: 2;
+	transform: scale(1);
+}
+
+#bg_l4{
+	background: #000;
+	z-index: 1;
+}
+
+#slide_container{
+	display: flex;
+	flex-flow: row nowrap;
+	width:100%;
+	justify-content: flex-start;
+	align-items: center;
+	position: absolute;
+	bottom:-500px;
+	left:-5px;
+	padding:10px;
+	z-index: 6;
+	box-sizing: border-box;
+	opacity:0;
+}
+
+.row{
+	width: 100%;
+	flex-grow:0;
+	flex-shrink:0;
+	padding: 0 5px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.card{
+	width:25%;
+	padding:5px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.card > img{
+	width: 100%;
+	pointer-events: none;
+}

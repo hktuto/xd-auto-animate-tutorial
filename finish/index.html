@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XD auto-animate tutorial</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <script src="node_modules/animejs/lib/anime.min.js"></script>
+    <script src="node_modules/hammerjs/hammer.min.js"></script>
+</head>
+<body>
+    <div id="app_container">
+        <div id="bg_l1" class="center bg_img"></div>
+        <div id="logo_container" class="center " >
+            <img id="logo" src="images/logo.png" />
+        </div>
+        <div id="bg_l2" class="center bg_img"></div>
+        <div id="bg_l3" class="center bg_img" ></div>
+        <bg id="bg_l4" class="center bg_img"></bg>
+        <div id="slide_container" swipe="true" >
+            <div class="row" id="row1">
+                <div class="card">
+                    <img src="./images/t1.png" />
+                </div>
+                <div class="card">
+                    <img src="./images/t2.png" />
+                </div>
+                <div class="card">
+                    <img src="./images/t3.png" />
+                </div>
+                <div class="card">
+                    <img src="./images/t4.png" />
+                </div>
+            </div>
+            <div class="row" id="row2">
+                <div class="card" >
+                    <img src="./images/t5.png" />
+                </div>
+                <div class="card">
+                    <img src="./images/t6.png" />
+                </div>
+                <div class="card">
+                    <img src="./images/t7.png" />
+                </div>
+                <div class="card">
+                    <img src="./images/t8.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/animation.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
