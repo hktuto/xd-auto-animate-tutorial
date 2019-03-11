@@ -4,8 +4,7 @@ var
     l3 = document.getElementById('bg_l3'),
     l4 = document.getElementById('bg_l4'),
     logo_container = document.getElementById('logo_container'),
-    slide = document.getElementById('slide_container'),
-    row1 = document.getElementById('row1');
+    slide = document.getElementById('slide_container');
 
 
 var introAnimation = anime.timeline({
@@ -14,13 +13,6 @@ var introAnimation = anime.timeline({
     autoplay:false,
     delay:500
 })
-
-var replayIntroAnimation = anime.timeline({
-    easing: 'easeOutExpo',
-    duration: 800,
-    direction: 'alternate',
-    autoplay:false
-});
 
 introAnimation
 .add({
